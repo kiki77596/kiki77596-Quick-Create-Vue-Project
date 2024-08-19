@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\C_VueCommand.cpp" />
+    <ClCompile Include="src\Quick-Create-Vue-Project.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\C_VueCommand.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -134,13 +141,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="C_VueCommand.cpp" />
-    <ClCompile Include="Quick-Create-Vue-Project.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C_VueCommand.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

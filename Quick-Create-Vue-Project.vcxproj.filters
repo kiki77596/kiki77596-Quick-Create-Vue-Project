@@ -13,18 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="資源檔\src">
+      <UniqueIdentifier>{7982b4e8-e2d9-451a-b0fc-2997e6844dff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Quick-Create-Vue-Project.cpp">
-      <Filter>來源檔案</Filter>
+    <ClCompile Include="src\C_VueCommand.cpp">
+      <Filter>資源檔\src</Filter>
     </ClCompile>
-    <ClCompile Include="C_VueCommand.cpp">
-      <Filter>來源檔案</Filter>
+    <ClCompile Include="src\Quick-Create-Vue-Project.cpp">
+      <Filter>資源檔\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C_VueCommand.h">
-      <Filter>來源檔案</Filter>
+    <ClInclude Include="src\C_VueCommand.h">
+      <Filter>資源檔\src</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
